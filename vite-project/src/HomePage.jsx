@@ -7,7 +7,7 @@ const HomePage = () => {
             <Navbar />
             <div className="content">
                 <section id="home">
-                    <h1>Welcome motherfucker</h1>
+                    <h1>Ohayow go zai mas, Watashi wa Menric san! Oss!</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis quisquam hic esse quis fuga. Pariatur necessitatibus odio reiciendis in aliquam quam ab nam dolores animi, nisi corrupti? Odio, iusto reprehenderit!</p>
                 </section>
 
@@ -42,7 +42,7 @@ const HomePage = () => {
                     <h2>Contact</h2>
                     <a>https://www.linkedin.com/in/menric-lunar/</a>
                 </section>
-                
+
             </div>
             <Footer />
         </>

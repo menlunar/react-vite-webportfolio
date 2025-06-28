@@ -1,6 +1,7 @@
-import { Link } from 'react-router-dom';
 import './Blog.css';
 import BlogNavbar from './BlogNavbar';
+import { Footer } from './Footer';
+
 
 const Blog = () => {
     return (
@@ -11,6 +12,7 @@ const Blog = () => {
                 <h1>Blog</h1>
                 <p>Hello blog, welcome to my guys</p>
             </div>
+            <Footer />
         </>
     );
 }
