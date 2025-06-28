@@ -1,42 +1,51 @@
 import Navbar from './Navbar';
 import Footer from './Footer';
+import { useMemo } from 'react';
 
 const HomePage = () => {
+
+    const daysInIndustry = useMemo(() => {
+        const startDate = new Date('2022-07-28');
+        const today = new Date();
+
+        // Calculate difference in milliseconds
+        const diffMs = today - startDate;
+
+        // Convert to full days
+        return Math.floor(diffMs / (1000 * 60 * 60 * 24));
+    }, []);
+
     return (
         <>
             <Navbar />
             <div className="content">
                 <section id="home">
                     <h1>Ohayow go zai mas, Watashi wa Menric san! Oss!</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis quisquam hic esse quis fuga. Pariatur necessitatibus odio reiciendis in aliquam quam ab nam dolores animi, nisi corrupti? Odio, iusto reprehenderit!</p>
+                    <p>Welcome, friend. How are you today? Hope you've been having a nice day!
+                        <br />... I see you've run into my website.
+                        Since you're already here, just go ahead and check it out! <br />I built this page to introduce myself. So read below to get to know me. <br />
+                        ... Or don't. Do whatever you want yoo. No worries. <br />Anyways, nice to meet you bruhh!</p>
                 </section>
 
                 <section id="about">
                     <h2>About Me</h2>
                     <p>This is the about section.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, quis obcaecati. Recusandae quia architecto fugiat natus praesentium, eligendi quam reprehenderit illo ducimus, atque nulla ut obcaecati dignissimos accusantium, quae tempore!
-                        Temporibus maxime reiciendis, delectus voluptatum tenetur illum ab vel, veniam quibusdam ad cupiditate ipsa mollitia suscipit possimus magnam velit saepe, est eaque nemo officia necessitatibus explicabo id. Eos, odit eveniet?
-                        Dolores quas perspiciatis, natus voluptatem hic dolorum. Aliquid numquam ut alias laboriosam asperiores nulla animi illum! Quos ipsa animi eos beatae unde aliquid optio minus, cumque porro ab saepe nesciunt.
-                        Dignissimos deserunt ex atque reprehenderit delectus? Quaerat voluptatem debitis eligendi! Deserunt exercitationem quisquam amet eos illum voluptatibus neque non adipisci, nobis sunt necessitatibus mollitia ipsum, eligendi dolorem corporis velit vitae!
-                        Recusandae, assumenda perspiciatis exercitationem neque nobis voluptate omnis sed rem vero totam in pariatur cupiditate nam explicabo asperiores ad odio cum, doloribus quos iure. Eum provident aperiam minima. Perspiciatis, dicta.
-                        Illum ducimus rerum doloremque repudiandae minima libero quae aliquam ex aliquid? Reiciendis ipsa ex officia nulla labore enim placeat quisquam facere eos voluptatum, quos iusto dolores necessitatibus eveniet harum optio!
-                        Totam rem quibusdam fuga iste minus impedit, optio veritatis ab ipsa. Quo dolorum suscipit laudantium? Nulla placeat odit quibusdam neque dolores aspernatur quisquam corrupti, voluptatem doloribus magni eum quam hic.
-                        Adipisci, est reprehenderit praesentium in dicta quaerat illo porro voluptas voluptates odio at cumque aperiam quod fuga. Aliquam suscipit dolorem nisi modi exercitationem! Reprehenderit sequi aperiam suscipit maxime nobis quas!
-                        Facere laborum et error fuga, quaerat vitae inventore. Laborum, facere? Totam eaque consequuntur dolore ea ipsam, reprehenderit ex officiis tenetur voluptate perferendis! Cum quisquam aperiam, consequuntur iste eius suscipit quasi.
-                        Repudiandae tempore vel maiores unde facilis sunt magni impedit praesentium perspiciatis dolor dignissimos, incidunt mollitia harum necessitatibus ratione iure nihil laborum architecto nostrum labore hic eaque commodi ullam. Cum, provident.</p>
+                    <p>This section is about me.</p>
+                    <p>So, you've probably got my name based on the title. So yeah, I'm a software engineer, mostly on .NET API connector development and Web App development using Razor and kendo UI. Did SQL development and optimization as well. Also, VBScripting legacy components. Company CI/CD involves bitbucket pipelines, jenkins, octopus and terraform to deploy to AWS, so I have some experience there. EC2, ECS, Redshift, and etc. Currently practicing React thru building this site.  Been in the industry
+                        for <strong>{daysInIndustry}</strong> days now. Noice! what else? ...Sometimes my back hurts, and currently my knee hurts. </p>
                 </section>
 
                 <section id="projects">
                     <h2>Projects</h2>
-                    <p>List your projects here.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quisquam veniam et consequatur harum dicta asperiores accusamus error totam perferendis exercitationem, beatae voluptatibus. Sed nulla fuga blanditiis quo, et alias.
-                        Maxime doloremque eveniet et magnam deserunt laborum illo sed unde iure, reiciendis molestiae, adipisci explicabo? Quia, ab dolorum molestiae assumenda quo debitis voluptatem totam dolore hic alias doloribus expedita tempora.
-                        Necessitatibus recusandae, aut ab nisi dolorem nostrum dolores est numquam, libero asperiores expedita, sunt placeat ipsam aspernatur a consectetur quo inventore porro doloremque at eos? Pariatur eum alias quia dicta!
-                        A modi temporibus expedita ad nihil quos deserunt quae iure? Voluptates adipisci a, tempora ipsam laudantium blanditiis quo magni, consectetur optio tenetur quibusdam modi facilis perferendis eligendi facere labore ullam.
-                        Debitis inventore, eligendi sunt eaque est nemo dolorum, deleniti sapiente quas in itaque magni tempora accusantium nobis, culpa a sit atque iste voluptatibus distinctio illum. Repudiandae sed quis laborum temporibus.</p>
+                    <p>In my current company, I've been assigned to tasks/projects below.</p>
+                    <div>
+                        <li>SQL development and optimizations</li>
+                        <li>Support/Maintenance tickets</li>
+                        <li>VB Scripting</li>
+                        <li>ERP API Connector development</li>
+                        <li>Web App Development</li>
+                    </div>
                 </section>
-
-
 
                 <section id="contact">
                     <h2>Contact</h2>
