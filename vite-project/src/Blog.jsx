@@ -1,17 +1,15 @@
 import { Link } from 'react-router-dom';
 import './Blog.css';
-import Navbar from './Navbar';
+import BlogNavbar from './BlogNavbar';
 
 const Blog = () => {
     return (
         <>
-            <Navbar />
+            <BlogNavbar />
             <div className="blog-page">
-                <div className="blog-nav">
-                    <Link to="/" className="back-link">← Home</Link>
-                </div>
+
                 <h1>Blog</h1>
-                <p>This is the blog page content.</p>
+                <p>Hello blog, welcome to my guys</p>
             </div>
         </>
     );

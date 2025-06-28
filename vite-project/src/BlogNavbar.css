@@ -1,0 +1,15 @@
+.blog-navbar {
+    padding: 1rem 2rem;
+    background-color: #222;
+}
+
+.back-to-home {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.back-to-home:hover {
+    text-decoration: underline;
+}
