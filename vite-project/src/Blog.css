@@ -1,0 +1,15 @@
+.blog-nav {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.back-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
