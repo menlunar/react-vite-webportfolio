@@ -14,12 +14,23 @@ header {
   z-index: 1000;
 }
 
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+  bottom: 0;
+  top: 0;
+  left: 0;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  height : 70px;
+  height: 70px;
   background-color: #222;
   color: white;
 }
@@ -45,14 +56,4 @@ header {
 
 html {
   scroll-behavior: smooth;
-}
-
-.footer {
-  background-color: #222;
-  color: white;
-  text-align: center;
-  padding: 1rem;
-  position: relative;
-  bottom: 0;
-  width: 100%;
 }

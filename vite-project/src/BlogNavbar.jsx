@@ -6,7 +6,7 @@ const BlogNavbar = () => {
         <header>
             <nav className="navbar">
                 <div className="logo">
-                    <Link to="/">Menric G. Lunar</Link>
+                    <Link to="/">Menric G. Lunar ⏾</Link>
                 </div>
 
             </nav>

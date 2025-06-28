@@ -17,12 +17,6 @@ function App() {
 
 
 
-// const Footer = () => {
-//   return (
-//     <footer className="footer">
-//       <p>© 2025 Menric G. Lunar. All rights reserved.</p>
-//     </footer>
-//   );
-// };
+
 
 export default App

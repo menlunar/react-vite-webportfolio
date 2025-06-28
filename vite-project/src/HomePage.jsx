@@ -1,4 +1,5 @@
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 const HomePage = () => {
     return (
@@ -8,16 +9,6 @@ const HomePage = () => {
                 <section id="home">
                     <h1>Welcome motherfucker</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis quisquam hic esse quis fuga. Pariatur necessitatibus odio reiciendis in aliquam quam ab nam dolores animi, nisi corrupti? Odio, iusto reprehenderit!</p>
-                </section>
-
-                <section id="projects">
-                    <h2>Projects</h2>
-                    <p>List your projects here.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quisquam veniam et consequatur harum dicta asperiores accusamus error totam perferendis exercitationem, beatae voluptatibus. Sed nulla fuga blanditiis quo, et alias.
-                        Maxime doloremque eveniet et magnam deserunt laborum illo sed unde iure, reiciendis molestiae, adipisci explicabo? Quia, ab dolorum molestiae assumenda quo debitis voluptatem totam dolore hic alias doloribus expedita tempora.
-                        Necessitatibus recusandae, aut ab nisi dolorem nostrum dolores est numquam, libero asperiores expedita, sunt placeat ipsam aspernatur a consectetur quo inventore porro doloremque at eos? Pariatur eum alias quia dicta!
-                        A modi temporibus expedita ad nihil quos deserunt quae iure? Voluptates adipisci a, tempora ipsam laudantium blanditiis quo magni, consectetur optio tenetur quibusdam modi facilis perferendis eligendi facere labore ullam.
-                        Debitis inventore, eligendi sunt eaque est nemo dolorum, deleniti sapiente quas in itaque magni tempora accusantium nobis, culpa a sit atque iste voluptatibus distinctio illum. Repudiandae sed quis laborum temporibus.</p>
                 </section>
 
                 <section id="about">
@@ -35,13 +26,28 @@ const HomePage = () => {
                         Repudiandae tempore vel maiores unde facilis sunt magni impedit praesentium perspiciatis dolor dignissimos, incidunt mollitia harum necessitatibus ratione iure nihil laborum architecto nostrum labore hic eaque commodi ullam. Cum, provident.</p>
                 </section>
 
+                <section id="projects">
+                    <h2>Projects</h2>
+                    <p>List your projects here.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quisquam veniam et consequatur harum dicta asperiores accusamus error totam perferendis exercitationem, beatae voluptatibus. Sed nulla fuga blanditiis quo, et alias.
+                        Maxime doloremque eveniet et magnam deserunt laborum illo sed unde iure, reiciendis molestiae, adipisci explicabo? Quia, ab dolorum molestiae assumenda quo debitis voluptatem totam dolore hic alias doloribus expedita tempora.
+                        Necessitatibus recusandae, aut ab nisi dolorem nostrum dolores est numquam, libero asperiores expedita, sunt placeat ipsam aspernatur a consectetur quo inventore porro doloremque at eos? Pariatur eum alias quia dicta!
+                        A modi temporibus expedita ad nihil quos deserunt quae iure? Voluptates adipisci a, tempora ipsam laudantium blanditiis quo magni, consectetur optio tenetur quibusdam modi facilis perferendis eligendi facere labore ullam.
+                        Debitis inventore, eligendi sunt eaque est nemo dolorum, deleniti sapiente quas in itaque magni tempora accusantium nobis, culpa a sit atque iste voluptatibus distinctio illum. Repudiandae sed quis laborum temporibus.</p>
+                </section>
+
+
+
                 <section id="contact">
                     <h2>Contact</h2>
-                    <p>Here’s how to reach me.</p>
+                    <a>https://www.linkedin.com/in/menric-lunar/</a>
                 </section>
+                
             </div>
+            <Footer />
         </>
     );
 }
+
 
 export default HomePage;
