@@ -13,3 +13,21 @@
 .back-link:hover {
     text-decoration: underline;
 }
+
+.blog-section {
+    margin-bottom: 2rem;
+}
+
+.blog-section h2 {
+    margin: 0 0 0.5rem;
+}
+
+.blog-section small {
+    color: gray;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.blog-section p {
+    font-size: 1.1rem;
+}
