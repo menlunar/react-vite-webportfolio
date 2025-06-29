@@ -21,16 +21,16 @@ const HomePage = () => {
             <div className="content">
                 <section id="home">
                     <h1>Ohayow go zai mas, Watashi wa Menric san! Oss!</h1>
-                    <p>Welcome, friend. How are you today? Hope you've been having a nice day!
-                        <br />... I see you've run into my website.
-                        Since you're already here, just go ahead and check it out! <br />I built this page to introduce myself. So read below to get to know me. <br />
-                        ... Or don't. Do whatever you want yoo. No worries. <br />Anyways, nice to meet you bruhh!</p>
+                    <p>Welcome, friend! How are you today? Hope you've been having a nice day!
+                        <br />... I see you've run into my website. <br />
+                        I built this page to introduce myself. Since you're already here, you're welcome to read below to get to know me. <br />
+                        ... Or don't. Do whatever you want. No worries. <br />Anyways, nice to meet you!</p>
                 </section>
 
                 <section id="about">
                     <h2>About Me</h2>
-                    <p>This is the about section.</p>
-                    <p>This section is about me.</p>
+                    {/* <p>This is the about section.</p>
+                    <p>This section is about me.</p> */}
                     <p>So, you've probably got my name based on the title. So yeah, I'm a software engineer, mostly on .NET API connector development and Web App development using Razor and kendo UI. Did SQL development and optimization as well. Also, VBScripting legacy components. Company CI/CD involves bitbucket pipelines, jenkins, octopus and terraform to deploy to AWS, so I have some experience there. EC2, ECS, Redshift, and etc. Currently practicing React thru building this site.  Been in the industry
                         for <strong>{daysInIndustry}</strong> days now. Noice! what else? ...Sometimes my back hurts, and currently my knee hurts. </p>
                 </section>
