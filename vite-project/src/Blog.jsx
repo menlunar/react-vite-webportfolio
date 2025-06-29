@@ -1,6 +1,6 @@
 import './Blog.css';
 import BlogNavbar from './BlogNavbar';
-import { Footer } from './Footer';
+import Footer from './Footer';
 
 
 const Blog = () => {
